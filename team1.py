@@ -12,8 +12,8 @@ team_name = 'Team1'
 strategy_name = 'Predict Movement'
 strategy_description = 'Base on the history of the enemy, predict what would the enemy decide, then decide base on the prediction and scores.'
 
-input_data = ([['c','c','c'],['b','b','b'],['c','b','c'],['b','c','b']])
-output_data = (['c','b','c','b'])
+input_data = [['c','c','c'],['b','b','b'],['c','b','c'],['b','c','b']]
+output_data = ['c','b','c','b']
 
 
 def move(my_history, their_history, my_score, their_score):
